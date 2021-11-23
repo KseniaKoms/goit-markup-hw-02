@@ -1,4 +1,94 @@
-/* main color text - #212121 */
-/* secondary color text - #757575 */
-/* color h1, logo - #FFFFFF */
-/* also - #000000 */
+/* primary text color - #757575 */
+/*title text color - #212121 */
+/* color h1 - #FFFFFF */
+/* color logo - #000000 */
+/* accent color - #2196F3 */
+/* background color-1 - #F5F4FA*/
+/* background color-2 - #2F303A */
+/* #188ce8 */
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+.nav-list .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list .link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.12;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/*main */
+
+.bg-color {
+  background-color: #2f303a;
+}
+
+.headline {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.93;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.button {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.button:hover {
+  background-color: #188ce8;
+}
